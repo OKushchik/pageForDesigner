@@ -94,6 +94,8 @@ header {
 }
 .title-btn:hover{
     cursor: pointer;
+    opacity: 0.8;
+    border: 2px solid #3295fa;
 }
 .wrapper {
     margin: 0 auto;
@@ -255,6 +257,11 @@ header {
     color: white;
     font-family: 'JosefinSans',sans-serif;
     font-weight: bold;
+}
+.card-download:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
 }
 .fa-facebook-f{
     width: 30px;
@@ -522,6 +529,10 @@ header {
     color: white;
     text-transform: uppercase;
     font-size: 14px;
+}
+.contacts-form button:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 .contacts-information {
     width: 45%;
